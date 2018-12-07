@@ -651,6 +651,26 @@
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-10.12.10.tgz#4fa76e6598b7de3f0cb6ec3abacc4f59e5b3a2ce"
   integrity sha1-T6duZZi33j8Mtuw6usxPWeWzos4=
 
+"@types/prop-types@*":
+  version "15.5.6"
+  resolved "http://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"
+  integrity sha1-nAPT/tcKjVF8GRt3NNooebUMomw=
+
+"@types/react-dom@^16.0.11":
+  version "16.0.11"
+  resolved "http://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.0.11.tgz#bd10ccb0d9260343f4b9a49d4f7a8330a5c1f081"
+  integrity sha1-vRDMsNkmA0P0uaSdT3qDMKXB8IE=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^16.7.13":
+  version "16.7.13"
+  resolved "http://registry.npm.taobao.org/@types/react/download/@types/react-16.7.13.tgz#d2369ae78377356d42fb54275d30218e84f2247a"
+  integrity sha1-0jaa54N3NW1C+1QnXTAhjoTyJHo=
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
 "@types/tapable@*":
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/@types/tapable/download/@types/tapable-1.0.4.tgz#b4ffc7dc97b498c969b360a41eee247f82616370"
@@ -1498,6 +1518,11 @@ css-what@2.1:
   version "2.1.2"
   resolved "http://registry.npm.taobao.org/css-what/download/css-what-2.1.2.tgz#c0876d9d0480927d7d4920dcd72af3595649554d"
   integrity sha1-wIdtnQSAkn19SSDc1yrzWVZJVU0=
+
+csstype@^2.2.0:
+  version "2.5.8"
+  resolved "http://registry.npm.taobao.org/csstype/download/csstype-2.5.8.tgz#4ce5aa16ea0d562ef9105fa3ae2676f199586a35"
+  integrity sha1-TOWqFuoNVi75EF+jriZ28ZlYajU=
 
 cyclist@~0.2.2:
   version "0.2.2"
